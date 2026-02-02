@@ -97,6 +97,13 @@ const showText = ref(false);
           <story-list v-model:value="value" set-title-when-selected />
           <slot name="footer" id="footer">
             <p>
+              Welcome to the story reader for a video game <a href="https://gf.sunborngame.com/" target="_blank">Girls' Frontline</a> (referred as Dolls' Frontline in some regions) developed by MICA Team. This is fanmade project, and is in no way affiliated with MICA Team.
+            </p>
+            <p>
+              The project was started by <a href="https://github.com/gudzpoz/gfStory" target="_blank">gudzpoz</a>, then later modified and translated to English by <a href="https://github.com/shiropantsu/gfStory-en" target="_blank">shiropantsu</a> as a separate project. Current fork (based off shiropantsu's work) is mantained by <a href="https://github.com/yutsuku/gfStory-en" target="_blank">moh</a>
+            </p>
+            <p></p>
+            <p>
               补剧情的顺序可以参考
               <a href="https://nga.178.com/read.php?tid=37662006&rand=406" target="_blank">
                 [剧情] [整理] 少女前线云玩家补剧情指北
